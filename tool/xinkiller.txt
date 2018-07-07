@@ -14,7 +14,7 @@
 !新闻
 m.baidu.com##DIV.news-list-wrapper
 !用户登录
-m.baidu.com###userinfo-wrap
+m.baidu.com###userinfo-wrap > A.square-enterance
 m.baidu.com###userinfo-wraps
 m.baidu.com###login-wraps
 m.baidu.com###login
