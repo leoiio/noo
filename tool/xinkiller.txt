@@ -407,6 +407,8 @@ sm.cn###index_hot_news
 sm.cn###index_haodongxi
 sm.cn###index_manage
 sm.cn###footer
+!-----------龙轩导航-----------!
+m.ilxdh.com###gethongbao
 !-----------豆果美食↓-----------!
 m.douguo.com###show
 m.douguo.com##DIV.top
