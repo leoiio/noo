@@ -9,7 +9,7 @@
 !*/ad_导致贴吧严重错乱的通配规则
 !--------------------------xincraft---------------------------!
 !-----------排除域名-----------!
-@@limufang.com,tutuapp.vip,tutuapp.com
+@@limufang.com,tutuapp.vip,tutuapp.com,google.com
 !-----------百度广告-----------!
 !新闻
 m.baidu.com##DIV.news-list-wrapper
@@ -391,6 +391,8 @@ sogou.com##DIV.award-enter
 !底部横幅广告
 3g.sogou.com,m.sogou.com###indexAppTwo
 3g.sogou.com,m.sogou.com###footer > DIV.foot
+!搜狗翻译
+fanyi.sogou.com###app > DIV.download-layout
 !-----------360搜索-----------!
 ||m.so.com###weather
 ||m.so.com###hd > DIV.in > A.i-user:nth-child(2)
