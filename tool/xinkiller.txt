@@ -393,14 +393,19 @@ sogou.com##DIV.award-enter
 3g.sogou.com,m.sogou.com###footer > DIV.foot
 !搜狗翻译
 fanyi.sogou.com###app > DIV.download-layout.J-promotion-cz-bottom:last-child > DIV.box-download-app
-!-----------360搜索-----------!
+!-----------360搜索↓-----------!
 ||m.so.com###weather
 ||m.so.com###hd > DIV.in > A.i-user:nth-child(2)
 ||m.so.com###news-list
 ||m.so.com###msocomBottomBanner
 ||m.so.com###load-more
 ||m.so.com###fead-back
-!-----------豆果美食-----------!
+!-----------神马搜索-----------!
+sm.cn###index_hot_news
+sm.cn###index_haodongxi
+sm.cn###index_manage
+sm.cn###footer
+!-----------豆果美食↓-----------!
 m.douguo.com###show
 m.douguo.com##DIV.top
 m.douguo.com##DIV.tbox
