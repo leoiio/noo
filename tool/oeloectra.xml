@@ -11,7 +11,7 @@
                                 <key>kind</key>
                                 <string>software-package</string>
                                 <key>url</key>
-                                <string>http://qdhw.leaderhero.com/new2/20180707/Electra_v1.0%28os11.2%29_180707201722_app.tongbu.com.ipa</string>
+                                <string>http://qdhw.leaderhero.com/new2/20180707/Electra_v1.0%28os11.2%29_180707222723_app.tongbu.com.ipa</string>
                             </dict>
                             <dict>
                                 <key>kind</key>
@@ -27,11 +27,11 @@
                             <key>bundle-identifier</key>
                             <string>com.nshushu.apps</string>
                             <key>bundle-version</key>
-                            <string>1.0</string>
+                            <string>1.0.2</string>
                             <key>kind</key>
                             <string>software</string>
                             <key>title</key>
-                            <string>Electra For Ios 11.2-11.3.1</string>
+                            <string>Electra v1.0.2 For Ios 11.2-11.3.1</string>
                         </dict>
                     </dict>
                 </array>
