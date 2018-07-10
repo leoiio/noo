@@ -1,4 +1,4 @@
-! Version:2018年7月8日
+! Version:2018年7月10日
 ! Title:xinkiller
 ! Author:小新
 ! Description:为创造干净的网页做不懈奋斗
@@ -407,6 +407,11 @@ sm.cn###index_hot_news
 sm.cn###index_haodongxi
 sm.cn###index_manage
 sm.cn###footer
+!-----------中国搜索-----------!
+chinaso.com##.bnwrap
+m.chinaso.com###newsList
+m.chinaso.com##DIV.w-container:first-child > DIV.w-container-top:first-child > DIV.w-weather
+m.chinaso.com##DIV.w-container:first-child > DIV.w-container-bottom
 !-----------龙轩导航-----------!
 m.ilxdh.com###gethongbao
 !-----------豆果美食↓-----------!
