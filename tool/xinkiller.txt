@@ -375,7 +375,7 @@ hanyu.baidu.com###header > DIV.headroom--container
 !右下角(答题抽大奖浮窗)
 3g.sogou.com,m.sogou.com##DIV.award-enter
 !搜索后出现下载应用横幅
-3g.sogou.com,m.sogou.com###appVrBtn
+3g.sogou.com,m.sogou.com##*.vr-recommend
 !搜狗底部打开链接
 3g.sogou.com,m.sogou.com###indexAppOneBtn
 3g.sogou.com,m.sogou.com###indexAppOneClose
