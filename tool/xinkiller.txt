@@ -416,6 +416,9 @@ m.chinaso.com##DIV.w-container:first-child > DIV.w-container-top:first-child > D
 m.chinaso.com##DIV.w-container:first-child > DIV.w-container-bottom
 !-----------龙轩导航-----------!
 m.ilxdh.com###gethongbao
+!-----------音悦台-----------!
+!下载APP浮窗
+m.yinyuetai.com##*.download.clearfix
 !-----------豆果美食↓-----------!
 m.douguo.com###show
 m.douguo.com##DIV.top
