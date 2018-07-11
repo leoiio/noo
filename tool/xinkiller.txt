@@ -7,19 +7,19 @@
 !-----------提示区域-----------!
 !*/ads/容易误屏蔽raw.githubusercontent.com
 !*/ad_导致贴吧严重错乱的通配规则
-!--------------------------xincraft---------------------------!
+!--------------------------xinblock---------------------------!
 !-----------排除域名-----------!
-@@limufang.com,tutuapp.vip,tutuapp.com,google.com
-!-----------百度广告-----------!
-!错误页面下新闻热点
+@@tutuapp.vip,tutuapp.com,google.com
+!-----------百度搜索-----------!
+!错误页面下的新闻热点
 m.baidu.com###page-bd>div.recommend
 !新闻
-m.baidu.com##DIV.news-list-wrapper
+m.baidu.com##div.news-list-wrapper
 !用户登录
-m.baidu.com###userinfo-wrap > A.square-enterance
-m.baidu.com###userinfo-wraps
-m.baidu.com###login-wraps
 m.baidu.com###login
+m.baidu.com###login-wraps
+m.baidu.com###userinfo-wraps
+m.baidu.com###userinfo-wrap>A.square-enterance
 !选项窗口(关注、新闻小说等)
 m.baidu.com###navs
 !天气窗口
@@ -29,9 +29,10 @@ m.baidu.com##div#hostblock
 m.baidu.com##div.hostblock-title
 m.baidu.com##div.hostblock-box
 !底部弹窗栏
+m.baidu.com##.index-invoke-banner-style
 baidu.com###banner
-baidu.com###header > DIV.baiduapp-ad-container:last-child > DIV.baiduapp-ad-body
-baidu.com###header > DIV.first-card-container
+baidu.com###header > div.baiduapp-ad-container
+baidu.com###header > div.first-card-container
 !其他(上滑加载更多&公司信息)
 m.baidu.com###tab_news_1
 m.baidu.com###bottom
@@ -514,7 +515,7 @@ neets.cc##div._3gU0J9JcqgN2OmKuekbLGD
 neets.cc##div._3FDCAT7_WiGpHqp3u1qbSq
 !------------------↓秋杪菁夕↓------------------!
 ! Title:Easy Safari
-! Version:2018/7/7/23:46
+! Version:2018/7/11/20:10
 !--------------------------------------------!
 /?u=*|$third-party
 /222.js
@@ -533,12 +534,12 @@ neets.cc##div._3FDCAT7_WiGpHqp3u1qbSq
 /native?tk=*$third-party
 /newfengchao/asp
 /nima.jpg
+/pf.js
 /se/transcode/static/img/tc-banner*.png
 /template/web/allgg/wap.js
 /templets/default/images/*.gif
 /xxgg/book.js
 /z.zolapp.
-!--------------------------------------------!
 .aspx?Bln=*$third-party
 .com/adv/
 .com/d/gg/
@@ -563,7 +564,6 @@ neets.cc##div._3FDCAT7_WiGpHqp3u1qbSq
 .php?u=*$third-party
 .sufficient.cn
 .zhuyuanp.
-!--------------------------------------------!
 003store.com
 0571yy.com
 0937jyg.com
@@ -589,6 +589,7 @@ neets.cc##div._3FDCAT7_WiGpHqp3u1qbSq
 a.kejixun.com
 a.lanrentuku.com
 a1.zhanzhang.net
+aa.gushiwen.org
 abc.88shu.cn$third-party
 abc.douguo.com
 adm-cnzz.net
@@ -598,6 +599,7 @@ aioda.cn
 aiwen.cc
 alicdn.com/g/mm/afp-cdn/js/
 alisinak.com
+anmeilai.net
 anyysz.com
 aobde.com
 aomde.com
@@ -704,7 +706,6 @@ focuscat.com
 front99.com
 fzdfwy.com
 fzyda.com
-fzyda.com
 g.163.com/*&affiliate=
 gameyun907.net
 gdhdfs.com
@@ -744,7 +745,6 @@ home520.com
 hot-eam.com
 hqygz.com
 htfmbt.com
-htfmbt.com
 huayange.com
 huimg.cn/e/hd.e.wap.
 hxsame.hexun.com
@@ -756,6 +756,7 @@ icons.mydrivers.com/news/2017/*.gif
 idaguang.com
 idasui.cn
 iefsf.com
+ienkdaccessible.cn
 ienkdago.cn
 ifeng.com*/wapifeng
 ifeng.com/client_share_bottom_
@@ -829,6 +830,7 @@ m.zymk.cn/js/0.8663614b5c.js
 maipubao.cn
 mangofortune.net
 meooe.com
+mf01.zybang.com
 miaobige.com/mb/react.js
 miaos11.com
 miaozhen.com$third-party
@@ -889,7 +891,6 @@ s.go.sohu.com*/?callback=
 sclrjyb.cn
 sczhilong.cn
 segue.wang
-sezvc.com
 sezvc.com
 sgzs999.com
 shen.duanat.com/xiaofen.png
@@ -1017,7 +1018,6 @@ zxwdw.com
 zyrfanli.com
 zzjs2.firefang.cn
 zzsdjq.com
-!--------------------------------------------!
 ##.ad-body
 ##.ad-card
 ##.adcontent
@@ -1031,6 +1031,8 @@ zzsdjq.com
 ##.ads-player
 ##.ad_text
 ##.ad320
+##.after-middleAd
+##.aggd
 ##.a_mu
 ##.article-ad
 ##.bdsharebuttonbox
@@ -1055,7 +1057,6 @@ zzsdjq.com
 ##.wp.a_h
 ##.wrap-head-spots
 ##.YWBDAD
-!--------------------------------------------!
 ###ad
 ###ad_demo
 ###ad_headerbanner
@@ -1081,7 +1082,6 @@ zzsdjq.com
 ###popup.t
 ###rightCouple
 ###textggs
-!--------------------------------------------!
 ##[class^="ADTOPLB_"]
 ##[data-tag="ad"]
 ##div[id^="bottom-gg"]
@@ -1092,7 +1092,6 @@ zzsdjq.com
 ##div[class$="-ad"]
 ##div[class$="gg"]
 ##div[class|="ad"]
-!--------------------------------------------!
 ##img[src="http://hjfmo.chuchenqitl.com/cy/logo.png"]
 ##img[src="https://mini.eastday.com/toutiaoh5/img/indexdown.png"]
 ##img[src="https://static.huxiucdn.com/m/image/moment_ad_banner.png"]
@@ -1101,7 +1100,6 @@ zzsdjq.com
 ##img[src^="http://img.gpsuu.com"]
 ##img[src^="http://t.cn"]
 ##img[src^="https://www2.autoimg.cn"]
-!--------------------------------------------!
 ##a[href="/alipay/alipay.html"]
 ##a[href="http://cdn.sp.rizhao9.com/gopc/goios.html"]
 ##a[href="http://fir.im/g1dv"]
@@ -1132,7 +1130,6 @@ zzsdjq.com
 ##a[href*="/zl?uid="]
 ##a[href*=".com/Register?a="]
 ##A[href*=".com/?Agent="]
-!--------------------------------------------!
 a.xcar.com.cn##.asd-imga
 a.xcar.com.cn##.appdown-footer
 baidu.com###loginGuide
@@ -1157,7 +1154,6 @@ baidu.com##h3.s-cluster-title.c-color.wa-cl_recommend-title.c-line-bottom
 baidu.com##a.wa-tiebastarxml-app.c-blocka[data-tc-redirect="1"]
 baidu.com##[class^="baiduapp-"]
 baidu.com##[class^="callappbox"]
-baidu.com##.c-recomm-wrap.new-ux-recom-wrapper
 baidu.com###navs
 baidu.com##.page-banner[style=""]
 baidu.com##.sfc-real-article-recommend
@@ -1289,18 +1285,14 @@ wk.baidu.com##a.sf-edu-wenku-id-right-fixed-ad-wrap
 wk.baidu.com##.bottom-bar-global
 wk.baidu.com##.b-tuijian-root
 zhihu.com##button.OpenInAppButton
-zhihu.com##div[data-za-detail-view-path-is_ad]
 zhihu.com##.RelatedReadings-adItem
 zhihu.com##.Lottie.Kok.Kok-mobile
-zhidao.baidu.com##.home-app-promotion.home-mod
 zhidao.baidu.com###main-content > div[class^="cvk"]
-zhidao.baidu.com##.w-question-list[data-sign]
-zhidao.baidu.com##div[class$="-ecom-ads"]
-zhidao.baidu.com##.link
 zhidao.baidu.com##.quality-elinks
 zhidao.baidu.com###p-relate-question + .mm-content-box
 zhidao.baidu.com##.bottom-banner
 zhidao.baidu.com,muzhi.baidu.com##div[class*="5a"]
+zybang.com##.topBanner
 163.com##.m_pbpb
 163.com##.doc-footer-wrapper
 163.com##.ne_rps.home_packet
@@ -1311,18 +1303,13 @@ zhidao.baidu.com,muzhi.baidu.com##div[class*="5a"]
 360doc.cn##.like_content
 360doc.cn##.youlike
 360doc.cn##.article_card + div[style]
-!--------------------------------------------!
 *$third-party,script,domain=m.65xs.net|wap.xxbiquge.com|m.23us.cc|m.biquge5200.cc|m.qu.la|m.ddbiquge.com|m.booktxt.net
 *$xmlhttprequest,domain=m.65xs.net|wap.xxbiquge.com|m.23us.cc|m.biquge5200.cc|m.qu.la|m.ddbiquge.com|m.booktxt.net
 |https://*.com$xmlhttprequest,third-party,domain=m.123du.cc|m.bokon.net
 *$third-party,domain=cnbtkitty.xyz
 *$third-party,script,xmlhttprequest,domain=storetorrents.com
-!--------------------------------------------!
 @@||apps.bdimg.com$script
 !------------------↑秋杪菁夕↑------------------!
-
-
-
 !-----------↓YanFung↓-----------!
 !----------Mobile Ads---------!
 !-------------↓↓↓------------!
@@ -1566,7 +1553,6 @@ bing.com###BottomAppPro
 ##.aqytop11
 ##[id^="ALayer"]
 btbtdy.com##[class^=ADTOPLB_]
-chinaso.com##.bnwrap
 nbd.com.cn##[class=header]
 kdnet.net##.download-bar
 sinaimg.cn/large/ed5e6a1*.gif$domain=gaoqing.la
