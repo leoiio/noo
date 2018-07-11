@@ -423,7 +423,7 @@ m.yinyuetai.com##*.download.clearfix
 app-echo.com###global-bottom
 app-echo.com###sound>div.download_bottombar
 !urlscheme拦截
-echoapp://ulink.app-echo.com*
+*ulink.app-echo.com*
 !-----------豆果美食↓-----------!
 m.douguo.com###show
 m.douguo.com##DIV.top
