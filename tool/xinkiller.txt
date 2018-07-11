@@ -1,4 +1,4 @@
-! Version:2018年7月10日
+! Version:2018年7月12日
 ! Title:xinkiller
 ! Author:小新
 ! Description:为创造干净的网页做不懈奋斗
@@ -419,9 +419,11 @@ m.ilxdh.com###gethongbao
 !-----------音悦台-----------!
 !下载APP浮窗
 m.yinyuetai.com##*.download.clearfix
-!-----------音悦台-----------!
+!-----------回声音乐-----------!
 app-echo.com###global-bottom
 app-echo.com###sound>div.download_bottombar
+!urlscheme拦截
+echoapp://ulink.app-echo.com*
 !-----------豆果美食↓-----------!
 m.douguo.com###show
 m.douguo.com##DIV.top
