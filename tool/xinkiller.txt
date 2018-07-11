@@ -11,6 +11,8 @@
 !-----------排除域名-----------!
 @@limufang.com,tutuapp.vip,tutuapp.com,google.com
 !-----------百度广告-----------!
+!错误页面下新闻热点
+m.baidu.com###page-bd>div.recommend
 !新闻
 m.baidu.com##DIV.news-list-wrapper
 !用户登录
