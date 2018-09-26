@@ -447,6 +447,11 @@ m.douguo.com##DIV.clearfix.icon.fix
 m.douguo.com##DIV.recipe-details.clearfix>A.open-app-btn:first-child 
 !-----------知乎-----------!
 !知乎
+!去知乎插件检测提示
+zhihu.com##.Advert--card
+zhihu.com##.Button--plain.TopstoryItem-advertButton.Button
+zhihu.com##.Advert
+
 zhihu.com###zh-top-inner
 zhihu.com###js-openInApp
 zhihu.com###root>DIV.App>DIV:nth-child(2)>HEADER.Sticky.MobileAppHeader
