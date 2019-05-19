@@ -1,4 +1,4 @@
-! Version:2018年8月3日
+! Version:2019年5月19日
 ! Title:xinkiller
 ! Author:小新
 ! Description:为创造干净的网页做不懈奋斗
@@ -29,6 +29,8 @@ m.baidu.com##div#hostblock
 m.baidu.com##div.hostblock-title
 m.baidu.com##div.hostblock-box
 !底部弹窗栏
+!打开App屏蔽
+baidu.com##article > div
 m.baidu.com##.index-invoke-banner-style
 baidu.com###banner
 baidu.com###header>div.baiduapp-ad-container
