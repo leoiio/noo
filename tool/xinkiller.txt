@@ -28,9 +28,9 @@ m.baidu.com###weather
 m.baidu.com##div#hostblock
 m.baidu.com##div.hostblock-title
 m.baidu.com##div.hostblock-box
-!底部弹窗栏
-!打开App屏蔽
-m.baidu.com##article>div
+! 底部弹窗栏
+! 打开App屏蔽
+! m.baidu.com##article>div
 m.baidu.com##.index-invoke-banner-style
 baidu.com###banner
 baidu.com###header>div.baiduapp-ad-container
